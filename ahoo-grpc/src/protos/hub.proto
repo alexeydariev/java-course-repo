@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_package = "student.examples";
+
+message Command {
+    int32 type = 1;
+    string body = 2;
+}
+
+message Response {
+    string body = 1;
+}
+
+service CalculationService {
+    rpc Calculate (Command) returns (Command);
+    rpc Respond (Response) returns (Response);
+}
