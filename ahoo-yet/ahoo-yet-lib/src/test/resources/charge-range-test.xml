@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE charge-range-test>
+<charge-range-test>
+    <entry>
+        <input>-5</input>
+        <expected>o</expected>
+    </entry>
+    <entry>
+        <input>0</input>
+        <expected>0</expected>
+    </entry>
+    <entry>
+        <input>5</input>
+        <expected>5</expected>
+    </entry>
+    <entry>
+        <input>100</input>
+        <expected>100</expected>
+    </entry>
+    <entry>
+        <input>105</input>
+        <expected>100</expected>
+    </entry>
+</charge-range-test>

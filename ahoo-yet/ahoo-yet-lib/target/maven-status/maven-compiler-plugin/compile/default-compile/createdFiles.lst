@@ -1,0 +1,11 @@
+student\examples\comm\ClientCommand.class
+student\examples\devices\VacuumCleaner.class
+student\examples\comm\CommandType.class
+student\examples\comm\ServerCommand.class
+student\examples\comm\Command.class
+student\examples\devices\NetworkDevice.class
+student\examples\devices\Device.class
+student\examples\config\Configuration.class
+student\examples\devices\HasBattery.class
+student\examples\devices\HasPowerStates.class
+student\examples\devices\PowerState.class

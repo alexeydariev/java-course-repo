@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "SuiteJavaCourse" verbose="10">
+    <groups>
+<!--        <run>-->
+<!--            <include name="unit"/>-->
+<!--            <include name="integration"/>-->
+<!--        </run>-->
+    </groups>
+    <listeners>
+        <listener class-name="student.examples.Listener"/>
+    </listeners>
+    <test name = "pizdec">
+        <classes>
+            <class name = "student.examples.DeviceIdentificationTest"/>
+            <class name = "student.examples.HasBatteryTest"/>
+            <class name = "student.examples.HasPowerStatesTest"/>
+            <class name = "student.examples.IterativeChargeTest"/>
+        </classes>
+    </test>
+</suite>
+
