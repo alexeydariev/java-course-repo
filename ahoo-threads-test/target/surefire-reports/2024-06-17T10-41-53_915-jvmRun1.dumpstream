@@ -1,3 +1,0 @@
-# Created at 2024-06-17T10:41:56.275
-Cannot invoke "org.apache.poi.ss.usermodel.Row.createCell(int)" because "row" is null
-
